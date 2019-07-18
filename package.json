@@ -1,0 +1,23 @@
+{
+  "name": "basik",
+  "version": "1.0.0",
+  "description": "VK bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mokoshka/basik.git"
+  },
+  "author": "Mokoshka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mokoshka/basik/issues"
+  },
+  "homepage": "https://github.com/Mokoshka/basik#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "node-vk-bot-api": "2.4.11"
+  }
+}
