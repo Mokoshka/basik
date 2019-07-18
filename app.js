@@ -5,7 +5,10 @@ const VkBot = require('node-vk-bot-api');
 const app = express();
 const jsonParser = bodyParser.json();
 
-const bot = new VkBot({ token: process.env.TOKEN });
+const bot = new VkBot({
+    token: process.env.TOKEN,
+    confirmation: process.env.CONFIRMATION
+});
 
 bot.on((ctx) => {
     ctx.reply('Hello!');
