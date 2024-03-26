@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Mokoshka/basik#readme",
   "dependencies": {
-    "express": "4.17.1",
+    "express": "4.19.2",
     "lodash": "^4.17.14",
     "node-vk-bot-api": "2.4.11"
   }
